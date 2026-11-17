@@ -4,7 +4,7 @@ Static, mobile-friendly itinerary for 17–22 November 2026. No build step or th
 
 ## Editing
 
-Edit `itinerary.json`. Each activity has a permanent `id` and `voteKey`: **never change or reuse an existing voteKey** when reordering or deleting activities. New activities require an unused one- or two-character lowercase alphanumeric voteKey. Votes follow the activity, not its time or day. All votes for one person must fit KeyVal's 300-character value limit. There are currently 28 activities; a full set of vetoes occupies 197 characters.
+Edit `itinerary.json`. Each activity has a permanent `id` and `voteKey`: **never change or reuse an existing voteKey** when reordering or deleting activities. New activities require an unused one- or two-character lowercase alphanumeric voteKey. Votes follow the activity, not its time or day. All votes for one person must fit KeyVal's 300-character value limit. The validation test checks that a complete set of votes stays within that limit.
 
 Times and travel are human-authored planning allowances, not verified rail departures. Booking links do not imply a reservation. Re-check actual availability, closures and engineering works before booking. Sunday airport activities run in parallel for separate travellers.
 

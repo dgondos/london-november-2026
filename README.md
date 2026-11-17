@@ -16,4 +16,13 @@ The app uses KeyVal POST `/get` and `/set`. Anyone holding the token can read/ch
 
 ## Run
 
-`python3 -m http.server 8765` and open localhost:8765. `node --check app.js` checks JavaScript syntax. `python3 tests/validate.py` checks activity identifiers, voting size and clock intervals. GitHub Pages deploys the repository root from main (no build).
+`python3 -m http.server 8765` and open localhost:8765. `node --check calendar.js` checks JavaScript syntax. `python3 tests/validate.py` checks activity identifiers, voting size and clock intervals. GitHub Pages deploys the repository root from main (no build).
+
+## Hungarian calendar UI and weather
+
+`calendar.js` renders a proportional single-day calendar (132 px/hour) with a detail dialog. Hungarian copy lives in the data file and UI. Technical notes stay in this README, not on the travel page. Wednesday is shopping/Shard; Saturday is Westminster/Eye. Existing vote keys remain unchanged.
+
+`weather.json` is a real hourly Open-Meteo snapshot for London and Oxford, including source retrieval time. The browser attempts a fresh forecast on load, falling back to the snapshot. Activity forecasts aggregate the relevant location and hours, including the next day for after-midnight events; the displayed rain percentage is the maximum hourly probability, not a whole-interval probability. API variables: temperature_2m, precipitation_probability, precipitation, weather_code, wind_speed_10m. No invented or climatological fallback values. After the trip falls outside the forecast window the saved snapshot is retained. API times are Europe/London; the trip takes place entirely in GMT, which permits the UTC parsing used here. If reusing in British Summer Time, replace that parsing with proper timezone handling.
+
+The weather refresh never silently moves bookings or changes the schedule. Current scheduling puts Wednesday's drizzle during shopping, Saturday's drier hours outdoors, and Oxford's outdoor walk before dusk, followed by the college and dinner. Changing forecasts may require a manual itinerary edit. Preserve transit buffers when rearranging blocks; Sunday airport blocks are parallel.
+

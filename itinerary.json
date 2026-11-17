@@ -11,9 +11,9 @@
         {
           "id": "arrival",
           "start": "20:00",
-          "end": "22:00",
+          "end": "20:30",
           "title": "Érkezés és bejelentkezés",
-          "detail": "Este foglaljuk el a szállást, utána vacsora a környéken, ha még nyitva vannak a konyhák.",
+          "detail": "Csomagok le, egy gyors felfrissülés, aztán irány a Red Dog Saloon!",
           "travel": "Heathrow → Farringdon: 60–90 perc a vasútállomástól. Stanstedről Liverpool Streeten át 90–120 perc.",
           "url": "",
           "place": "Farringdon London",
@@ -22,6 +22,20 @@
           "setting": "indoor",
           "city": "london",
           "flexible": true
+        },
+        {
+          "id": "reddog",
+          "start": "21:00",
+          "end": "22:30",
+          "title": "Red Dog Saloon · Hoxton",
+          "detail": "Első esti BBQ-vacsora: füstölt brisket, oldalas, burgerek és csirkeszárnyak. 37 Hoxton Square, N1 6NN. Az étterem éjfélig nyitva; késői érkezésnél a konyháról telefonon érdeklődjünk: +44 20 3551 8014. A vacsora idejét az érkezéshez igazítjuk.",
+          "travel": "20:30–21:00 · Farringdonból kb. 25–30 perc tömegközlekedéssel vagy taxival. Gyalog kb. 40 perc, ehhez induljunk korábban. Vacsora után ugyanez az út vissza.",
+          "url": "https://www.reddogsaloon.co.uk/venues/london-hoxton-square",
+          "place": "Red Dog Saloon 37 Hoxton Square London N1 6NN",
+          "book": true,
+          "voteKey": "s",
+          "setting": "indoor",
+          "city": "london"
         }
       ]
     },

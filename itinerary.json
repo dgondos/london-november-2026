@@ -1,0 +1,385 @@
+{
+  "title": "London & Oxford",
+  "dates": "17–22 November 2026",
+  "timezone": "Europe/London",
+  "days": [
+    {
+      "date": "2026-11-17",
+      "title": "Arrival",
+      "subtitle": "Tuesday · settle into Farringdon",
+      "events": [
+        {
+          "id": "arrival",
+          "start": "Evening",
+          "end": "",
+          "title": "Arrive & check in",
+          "detail": "No timed bookings tonight: arrival time is unconfirmed. Eat near Farringdon if kitchens are still open.",
+          "travel": "Heathrow → Farringdon: allow 60–90 min after reaching the station, plus immigration and bags. From Stansted allow 90–120 min via Liverpool Street.",
+          "url": "",
+          "place": "Farringdon London",
+          "book": false,
+          "voteKey": "0"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Westminster & the South Bank",
+      "subtitle": "Wednesday · the classic sights, then the West End",
+      "events": [
+        {
+          "id": "brunch-w",
+          "start": "12:00",
+          "end": "12:45",
+          "title": "Brunch in Farringdon",
+          "detail": "Eat before setting off; carry a compact umbrella.",
+          "travel": "",
+          "url": "",
+          "place": "Farringdon London",
+          "book": false,
+          "voteKey": "1"
+        },
+        {
+          "id": "palace",
+          "start": "13:20",
+          "end": "14:00",
+          "title": "Buckingham Palace & St James’s Park",
+          "detail": "Exterior palace stop, then walk through the park. This is not an interior tour or a Changing of the Guard appointment.",
+          "travel": "12:45–13:20 · Tube to St James’s Park, then walk; allow 35 min.",
+          "url": "https://www.rct.uk/visit/buckingham-palace",
+          "place": "Buckingham Palace",
+          "book": false,
+          "voteKey": "2"
+        },
+        {
+          "id": "westminster",
+          "start": "14:20",
+          "end": "15:05",
+          "title": "Westminster Abbey, Big Ben & Parliament",
+          "detail": "See the Abbey exterior, Parliament Square and Elizabeth Tower, then cross Westminster Bridge. Abbey interior is an optional swap, not included in this timing.",
+          "travel": "14:00–14:20 · walk through St James’s Park.",
+          "url": "",
+          "place": "Parliament Square London",
+          "book": false,
+          "voteKey": "3"
+        },
+        {
+          "id": "eye",
+          "start": "15:30",
+          "end": "16:45",
+          "title": "London Eye ride",
+          "detail": "Aim for a 15:30 ticket. This block includes the queue, security and a 30-minute rotation. Ticket time is queue entry, not boarding; allow more if busy. Nothing is booked.",
+          "travel": "15:05–15:25 · cross Westminster Bridge and walk to the Eye; 5 min buffer.",
+          "url": "https://www.londoneye.com/tickets-and-prices/",
+          "place": "London Eye",
+          "book": true,
+          "voteKey": "4"
+        },
+        {
+          "id": "southbank",
+          "start": "16:45",
+          "end": "17:30",
+          "title": "South Bank riverside walk",
+          "detail": "Walk towards the National Theatre and Waterloo Bridge. In rain, shorten the walk and stop for coffee instead.",
+          "travel": "",
+          "url": "",
+          "place": "National Theatre London",
+          "book": false,
+          "voteKey": "5"
+        },
+        {
+          "id": "covent",
+          "start": "18:00",
+          "end": "19:00",
+          "title": "Covent Garden",
+          "detail": "Browse the covered market, Seven Dials and nearby shops. Individual shop hours vary.",
+          "travel": "17:30–18:00 · walk across Waterloo Bridge, about 25–30 min.",
+          "url": "",
+          "place": "Covent Garden London",
+          "book": false,
+          "voteKey": "6"
+        },
+        {
+          "id": "soho",
+          "start": "19:15",
+          "end": "21:00",
+          "title": "Dinner in Chinatown / Soho",
+          "detail": "Choose a restaurant on the night; allow a queue or reserve a table. Budget roughly £25–40 each, depending on drinks.",
+          "travel": "19:00–19:15 · walk.",
+          "url": "",
+          "place": "Chinatown London",
+          "book": false,
+          "voteKey": "7"
+        },
+        {
+          "id": "soho-late",
+          "start": "21:00",
+          "end": "00:15",
+          "title": "Soho drinks · optional late finish",
+          "detail": "Stay for another drink or head back early. Last orders vary; after midnight do not assume the Tube is still running.",
+          "travel": "Return: allow 30–40 min on foot to Farringdon, or check a live bus/taxi route.",
+          "url": "",
+          "place": "Soho London",
+          "book": false,
+          "voteKey": "8"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Thursday",
+      "subtitle": "Daytime reserved · meet again in the evening",
+      "events": [
+        {
+          "id": "reserved",
+          "start": "Daytime",
+          "end": "19:00",
+          "title": "Existing daytime plans",
+          "detail": "Daytime kept clear. Studio-tour entry time and return journey are not confirmed; no extra sightseeing has been squeezed in.",
+          "travel": "",
+          "url": "",
+          "place": "Existing daytime plans",
+          "book": false,
+          "voteKey": "9"
+        },
+        {
+          "id": "dinner-th",
+          "start": "20:00",
+          "end": "21:30",
+          "title": "Dinner in Clerkenwell",
+          "detail": "Meet near the accommodation after everyone is back. Keep this flexible if the studio return runs late.",
+          "travel": "19:00–20:00 · regroup, travel and freshen-up buffer.",
+          "url": "",
+          "place": "Clerkenwell London",
+          "book": false,
+          "voteKey": "a"
+        },
+        {
+          "id": "pub-th",
+          "start": "21:30",
+          "end": "23:00",
+          "title": "Local pub · optional",
+          "detail": "A relaxed evening close to home before the Oxford day.",
+          "travel": "Allow 10–20 min to walk back, depending on the chosen pub.",
+          "url": "",
+          "place": "Farringdon London",
+          "book": false,
+          "voteKey": "b"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Oxford",
+      "subtitle": "Friday · colleges, old streets and a pub dinner",
+      "events": [
+        {
+          "id": "ox-out",
+          "start": "12:00",
+          "end": "13:45",
+          "title": "Farringdon → Oxford",
+          "detail": "Elizabeth line to Paddington, then a direct GWR service to Oxford. Buy a train that fits this window; these are planning allowances, not a verified train timetable. Have brunch before departure or take food.",
+          "travel": "Allow 25 min to Paddington, 20 min interchange, around 55–65 min on the train and contingency.",
+          "url": "https://www.gwr.com/",
+          "place": "Oxford railway station",
+          "book": true,
+          "voteKey": "c"
+        },
+        {
+          "id": "ox-lunch",
+          "start": "14:05",
+          "end": "14:40",
+          "title": "Covered Market lunch",
+          "detail": "Walk into the centre and get a quick lunch or coffee. Keep it light if you ate on the train.",
+          "travel": "13:45–14:05 · station → Covered Market, about 20 min walk.",
+          "url": "https://oxford-coveredmarket.co.uk/",
+          "place": "Oxford Covered Market",
+          "book": false,
+          "voteKey": "d"
+        },
+        {
+          "id": "christchurch",
+          "start": "15:00",
+          "end": "16:15",
+          "title": "Christ Church college & cathedral",
+          "detail": "Target a 15:00 entry. The Great Hall normally reopens after the weekday 12:00–14:00 lunch closure; the site requires exit by 17:00 in term. Check closures and availability before paying. If sold out, swap for the meadow and exterior walk.",
+          "travel": "14:40–15:00 · walk and arrival buffer.",
+          "url": "https://www.chch.ox.ac.uk/visit/daily-multimedia-tours",
+          "place": "Christ Church Oxford",
+          "book": true,
+          "voteKey": "e"
+        },
+        {
+          "id": "ox-walk",
+          "start": "16:30",
+          "end": "17:30",
+          "title": "Radcliffe Square & the old university",
+          "detail": "Exterior walk: Radcliffe Camera, Bodleian courtyards where accessible, Bridge of Sighs and Broad Street. No library interior tour is assumed. Expect dusk/darkness; reverse with Christ Church if daylight matters more.",
+          "travel": "16:15–16:30 · walk.",
+          "url": "https://visit.bodleian.ox.ac.uk/",
+          "place": "Radcliffe Camera Oxford",
+          "book": false,
+          "voteKey": "f"
+        },
+        {
+          "id": "ox-dinner",
+          "start": "17:45",
+          "end": "19:00",
+          "title": "Oxford pub dinner",
+          "detail": "Try the Turf Tavern area or another central pub; reserve if possible. A fallback restaurant is preferable to waiting for a table and missing the train.",
+          "travel": "17:30–17:45 · walk.",
+          "url": "",
+          "place": "Turf Tavern Oxford",
+          "book": false,
+          "voteKey": "g"
+        },
+        {
+          "id": "ox-return",
+          "start": "19:00",
+          "end": "21:15",
+          "title": "Return to Farringdon",
+          "detail": "Walk to Oxford station and take a suitable direct service to Paddington, then Elizabeth line. Aim for a train around 19:30–20:00; choose the actual return when booking.",
+          "travel": "Allow 25 min walk plus station buffer, 55–65 min train and 30–40 min for Paddington → Farringdon.",
+          "url": "https://www.nationalrail.co.uk/",
+          "place": "Oxford railway station",
+          "book": false,
+          "voteKey": "h"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Shopping & the skyline",
+      "subtitle": "Saturday · West End shops, Tower Bridge, then the Shard",
+      "events": [
+        {
+          "id": "sat-brunch",
+          "start": "12:25",
+          "end": "13:10",
+          "title": "Brunch near Oxford Circus",
+          "detail": "Start in the West End, with a proper meal before shopping.",
+          "travel": "Leave Farringdon at 12:00; allow 20–25 min via Elizabeth line to Tottenham Court Road and walk. Brunch may run to 13:00.",
+          "url": "",
+          "place": "Oxford Circus London",
+          "book": false,
+          "voteKey": "i"
+        },
+        {
+          "id": "shopping",
+          "start": "13:10",
+          "end": "16:10",
+          "title": "Oxford Street, Regent Street & Carnaby",
+          "detail": "Three hours for shopping. Follow Oxford Circus → Regent Street → Carnaby Street; split up and agree a meeting point if useful. Skip extra sightseeing rather than compressing this block.",
+          "travel": "",
+          "url": "https://www.carnaby.co.uk/",
+          "place": "Carnaby Street London",
+          "book": false,
+          "voteKey": "j"
+        },
+        {
+          "id": "towerbridge",
+          "start": "17:00",
+          "end": "17:45",
+          "title": "Tower Bridge & the Tower of London",
+          "detail": "Exterior views only: walk the riverside and across the bridge. Tower interiors and the bridge exhibition are not included.",
+          "travel": "16:10–17:00 · walk to Oxford Circus, Central line to Bank, change/walk towards Tower Hill; allow 50 min.",
+          "url": "",
+          "place": "Tower Bridge London",
+          "book": false,
+          "voteKey": "k"
+        },
+        {
+          "id": "sat-dinner",
+          "start": "18:10",
+          "end": "19:30",
+          "title": "Dinner around London Bridge",
+          "detail": "Eat before cocktails. Choose a restaurant around London Bridge / Bermondsey Street and reserve once the bar time is secured. Do not rely on Borough Market stalls being open for dinner.",
+          "travel": "17:45–18:10 · riverside walk towards London Bridge, 25 min.",
+          "url": "",
+          "place": "London Bridge station",
+          "book": false,
+          "voteKey": "l"
+        },
+        {
+          "id": "gong",
+          "start": "20:00",
+          "end": "21:30",
+          "title": "GŎNG · cocktails at the Shard",
+          "detail": "Target a 20:00 reservation for four at the level-52 hotel bar. Smart casual; confirm the minimum spend and allotted table time on the booking. The listed minimum is £30 per adult, but terms can change. This is not a View from the Shard ticket. Nothing is booked.",
+          "travel": "19:30–20:00 · walk to Shangri-La entrance, security/lift and arrival buffer.",
+          "url": "https://www.shangri-la.com/london/shangrila/dining/bars-lounges/gong/",
+          "place": "Shangri-La The Shard London",
+          "book": true,
+          "voteKey": "m"
+        },
+        {
+          "id": "sat-late",
+          "start": "21:30",
+          "end": "00:30",
+          "title": "One more drink · optional",
+          "detail": "Continue nearby if somewhere appeals, or head back. If GŎNG is full, replace the bar slot rather than buying an observation-deck ticket expecting a skybar.",
+          "travel": "London Bridge → Farringdon: allow 30–40 min by Tube with a change; late return by live bus/taxi route.",
+          "url": "",
+          "place": "London Bridge London",
+          "book": false,
+          "voteKey": "n"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "title": "Sunday & departures",
+      "subtitle": "Sunday · a short local morning, then separate airport routes",
+      "events": [
+        {
+          "id": "sun-brunch",
+          "start": "10:30",
+          "end": "11:30",
+          "title": "Brunch & a short Clerkenwell walk",
+          "detail": "An intentionally earlier, optional start. Stay local, check out and collect luggage by noon. If you sleep in, skip the walk—not the airport buffer.",
+          "travel": "",
+          "url": "",
+          "place": "Clerkenwell London",
+          "book": false,
+          "voteKey": "o"
+        },
+        {
+          "id": "sun-bags",
+          "start": "11:30",
+          "end": "12:00",
+          "title": "Collect luggage & check out",
+          "detail": "Confirm the accommodation checkout and luggage arrangements. No afternoon sightseeing.",
+          "travel": "",
+          "url": "",
+          "place": "Collect luggage & check out",
+          "book": false,
+          "voteKey": "p"
+        },
+        {
+          "id": "stansted",
+          "start": "12:00",
+          "end": "14:15",
+          "title": "Stansted departure route",
+          "detail": "For an assumed 17:00 flight: Farringdon → Liverpool Street by Tube/Elizabeth line, then Stansted Express. Aim to reach the terminal by 14:00–14:15. Allow extra for engineering works and security.",
+          "travel": "Budget up to 2 hr 15 min including walking, interchange, waiting and a roughly 50-minute airport train. Confirm Sunday service before leaving.",
+          "url": "https://www.stanstedexpress.com/",
+          "place": "Stansted Airport",
+          "book": false,
+          "voteKey": "q"
+        },
+        {
+          "id": "heathrow",
+          "start": "12:30",
+          "end": "14:15",
+          "title": "Heathrow departure route",
+          "detail": "For an assumed 17:00 flight: Elizabeth line from Farringdon towards the correct Heathrow terminal. Check the destination: not every westbound train serves Heathrow, and terminal changes take time. Aim to arrive by 14:00–14:15.",
+          "travel": "Budget 1 hr 45 min including station access, waiting and terminal navigation. Airline guidance takes priority.",
+          "url": "https://tfl.gov.uk/plan-a-journey/",
+          "place": "Heathrow Airport",
+          "book": false,
+          "voteKey": "r"
+        }
+      ]
+    }
+  ]
+}

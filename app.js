@@ -2,6 +2,7 @@
 const $=s=>document.querySelector(s),people={daniel:'Daniel',zsolti:'Zsolti',kitti:'Kitti',zsofi:'Zsófi'};
 let plan,selected=0,whole=false,token='',votes={},busy=false,healthy=false;
 const safeStore={get(k){try{return localStorage.getItem(k)||''}catch{return ''}},set(k,v){try{localStorage.setItem(k,v)}catch{}}};
+window.addEventListener('hashchange',()=>{const next=new URLSearchParams(location.hash.slice(1)).get('vote');if(/^[A-Za-z0-9_-]{32}$/.test(next||'')&&next!==token)location.reload()});
 const fragment=new URLSearchParams(location.hash.slice(1));
 if(/^[A-Za-z0-9_-]{32}$/.test(fragment.get('vote')||'')){token=fragment.get('vote');safeStore.set('london-vote-token',token)}else token=safeStore.get('london-vote-token');
 if(!/^[A-Za-z0-9_-]{32}$/.test(token))token='';
